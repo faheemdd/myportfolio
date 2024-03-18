@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faheem Protflio</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+</head>
+<body>
+    <div class="container">
+        <nav id="header">
+            <div class="nav-logo">
+                <p class="vav-name">Logo</p>
+            </div>
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="#home" class="nav-link  active-link">Home</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#about" class="nav-link">About</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#project" class="nav-link">Project</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#contact" class="nav-link">Contact</a>
+                        <div class="circle"></div>
+                    </li>
+                </ul>
+            </div>
+            <!--Dark mode-->
+            <div class="mode">
+                <div class="moon-sun" id="toggle-switch">
+                    <i class="ri-moon-fill" id="moon"></i>
+                    <i class="ri-sun-line" id="sun"></i>
+                </div>
+            </div>
+            <div class="nav-manu-btn">
+                <i class="ri-menu-line" onclick="myMenuFunction()"></i>
+            </div>
+        </nav>
+        <!--main-->
+        <main class="wrapper">
+            <section class="featured-box" id="home">
+                <div class="featured-text">
+                    <div class="hello">
+                        <p>Hello I,m</p>
+                    </div>
+                    <div class="featured-name">
+                        <span class="typedText"></span>
+                    </div>
+                    <div class="text-info">
+                        <p>My name is Muhammad Faheem! I,am a web developer with 1+ year of experience</p>
+                    </div>
+                    <div class="text-btn">
+                        <button class="btn hire-btn">Hire Me</button>
+                        <button class="btn">Download CV<i class="ri-file-3-line"></i></button>
+                    </div>
+                    <div class="social_icon">
+                        <div class="icon_circle"></div>
+                        <div class="icon"><i class="ri-instagram-line"></i></div>
+                        <div class="icon"><i class="ri-linkedin-line"></i></div>
+                        <div class="icon"><i class="ri-behance-line"></i></div>
+                        <div class="icon"><i class="ri-github-fill"></i></div>
+                    </div>
+                </div>
+                <div class="featured-image">
+                    <div class="image">
+                        <img src="imag.jpg/WhatsApp Image 2024-03-18 at 11.50.40_e3541473.jpg">
+                    </div>
+                </div>
+            </section>
+            <!--aboyt box-->
+            <section class="section" id="about">
+                <div class="top-header">
+                    <h1>Aout me</h1> 
+                </div>
+                <div class="row">
+                    <div class="about-info">
+                        <figure class="about-me">
+                            <figcaption>
+                                <img src="imag.jpg/WhatsApp Image 2024-03-18 at 11.49.31_d8fcdcb1.jpg" class="profile">
+                                <h2>Web Developer</h2>
+                                <p>My name is Muhammad Faheem! I,am a web developer with 1+ year of experience</p>
+                            </figcaption>
+                        </figure>
+                        <button class="about-me-btn">Hire Me</button>
+                    </div>
+                <div class="skill">
+                    <div class="skill-box">
+                        <span class="title">HTML</span>
+                        <div class="skile-bar">
+                            <span class="skill-per">
+                                <span class="tooltip">80%</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="skill-box">
+                        <span class="title">CSS</span>
+                        <div class="skile-bar css">
+                            <span class="skill-per">
+                                <span class="tooltip">80%</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="skill-box">
+                        <span class="title">JAVA SCRIPT</span>
+                        <div class="skile-bar">
+                            <span class="skill-per javascript">
+                                <span class="tooltip">70%</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="skill-box">
+                        <span class="title">PYTHON</span>
+                        <div class="skile-bar">
+                            <span class="skill-per python">
+                                <span class="tooltip">50%</span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="skill-box">
+                        <span class="title">PHP</span>
+                        <div class="skile-bar">
+                            <span class="skill-per php">
+                                <span class="tooltip">40%</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </section>
+            <!--Project box-->
+            <section class="section" id="projects">
+                <div class="top-header">
+                    <h1>Projects</h1>
+                </div>
+                <div class="project-container">
+                    <div class="project-box">
+                        <i class="ri-briefcase-line"></i>
+                        <h3>Comeleted</h3>
+                        <label>20</label>
+                    </div>
+                    <div class="project-box">
+                        <i class="ri-map-pin-user-line"></i>
+                        <h3>Clients</h3>
+                        <label>20+ Happy Clients</label>
+                    </div>
+                    <div class="project-box">
+                        <i class="ri-medal-line"></i>
+                        <h3>Experience</h3>
+                        <label>1+ Year in web develoment</label>
+                    </div>
+                </div>
+            </section>
+            <!--contact box-->
+            <section class="section" id="contact">
+                <div class="top-header">
+                    <h1>Let 's Work Together</h1>
+                    <span>Do you hava a project in your mind, contact me here</span>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="contact-info">
+                            <h2>Find me<i class="ri-arrow-right-down-line"></i></h2>
+                            <p><i class="ri-mail-line">Email:CodeCreators@gmail.com</i></p>
+                            <p><i class="ri-phone-line">Phone: 0165118112</i></p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-control">
+                            <div class="from-inputs">
+                                <input type="text" class="input-field" placeholder="Your Name">
+                                <input type="text" class="input-field" placeholder="Your Email">
+                            </div>
+                            <div class="text-area">
+                                <input type="text" class="input-subject" placeholder="Subject">
+                                <textarea placeholder="Message"></textarea>
+                            </div>
+                            <div class="from-button">
+                                <button class="btn">Send<i class="ri-chat-1-line"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--footer-->
+            <footer>
+                <div class="middle-footer">
+                    <ul class="footer-menu">
+                        <li class="footer_menu-list">
+                            <a href="#home">Home</a>
+                        </li>
+                        <li class="footer_menu-list">
+                            <a href="#about">About</a>
+                        </li>
+                        <li class="footer_menu-list">
+                            <a href="#project">Projects</a>
+                        </li>
+                        <li class="footer_menu-list">
+                            <a href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-social-icons">
+                    <div class="icon_circle"></div>
+                        <div class="icon"><i class="ri-instagram-line"></i></div>
+                        <div class="icon"><i class="ri-linkedin-line"></i></div>
+                        <div class="icon"><i class="ri-behance-line"></i></div>
+                        <div class="icon"><i class="ri-github-fill"></i></div>
+                </div>
+                <div class="bottom-footer">
+                    <p>Copyright &copy; <a href="#home" style="text-decoration: none;">CodeCreators</a> - All right reserved 2024</p>
+                </div>
+            </footer>
+        </main>
+    </div>
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js" integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@iconscout/unicons@4.0.8/script/monochrome/bundle.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
